@@ -17,4 +17,4 @@
 FROM ossfuzz/base-libfuzzer
 MAINTAINER mike.aizatsky@gmail.com
 
-CMD /workspace/ossfuzz-example/fuzz/build.sh
+CMD /workspace/fuzz/build.sh
