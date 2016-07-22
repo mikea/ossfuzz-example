@@ -16,5 +16,5 @@
 
 FROM ossfuzz/base-libfuzzer
 MAINTAINER mike.aizatsky@gmail.com
-
+RUN apt-get install -y cmake ninja
 CMD /workspace/fuzz/build.sh
