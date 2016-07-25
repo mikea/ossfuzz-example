@@ -4,7 +4,6 @@
 
 static volatile int Sink;
 
-// library.cc
 void checkString(std::string s) {
   if (s.size() < 3)
     return;
