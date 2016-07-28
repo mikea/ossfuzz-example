@@ -10,5 +10,5 @@ cmake -G "Ninja" \
   /workspace
 ninja
 
-$CXX $CXXFLAGS /workspace/fuzz/fuzzer.cc -o /out/fuzzer \
+$CXX $CXXFLAGS $LDFLAGS /workspace/fuzz/fuzzer.cc -o /out/fuzzer \
   /work/libfuzzer/*.o ./libexample.a
