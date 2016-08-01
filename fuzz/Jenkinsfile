@@ -19,5 +19,5 @@ def libfuzzerBuild = fileLoader.fromGit('infra/libfuzzer-pipeline.groovy',
 
 libfuzzerBuild {
   git = "https://github.com/mikea/ossfuzz-example.git"
-  dockerfile = "fuzz/Dockerfile"
+  dockerfile = "ossfuzz-example/fuzz/Dockerfile"
 }
