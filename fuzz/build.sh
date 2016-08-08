@@ -1,6 +1,4 @@
 #!/bin/bash -ex
-. /env
-
 mkdir /work/ossfuzz-example
 cd /work/ossfuzz-example
 
