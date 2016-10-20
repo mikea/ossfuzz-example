@@ -10,4 +10,4 @@ cmake -G "Ninja" \
 ninja
 
 $CXX $CXXFLAGS $FUZZER_LDFLAGS /src/ossfuzz-example/fuzz/fuzzer.cc -o /out/ossfuzzexample_fuzzer \
-  /work/libfuzzer/*.o ./libexample.a
+  -lfuzzer ./libexample.a
